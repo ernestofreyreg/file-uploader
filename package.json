@@ -1,0 +1,32 @@
+{
+  "name": "file-uploader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "NODE_ENV=test mocha --ui bdd --compilers js:babel-register --recursive test/"
+  },
+  "keywords": [],
+  "author": "Ernesto Freyre <ernestofreyreg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.3",
+    "next": "^2.4.6",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-dropzone": "^3.13.3"
+  },
+  "devDependencies": {
+    "babel-register": "^6.24.1",
+    "mocha": "^3.4.2",
+    "must": "^0.13.4",
+    "must-sinon": "^0.0.0",
+    "nock": "^9.0.13",
+    "sinon": "^2.3.6"
+  }
+}
